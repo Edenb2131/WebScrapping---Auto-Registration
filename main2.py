@@ -49,8 +49,8 @@ FAST_REGISTER = True
 
 
 def telegram_bot_sendtext(bot_message):
-    bot_token = '1357917340:AAGZep2N_vyG_R_SHx1ZEMtqkd4xzwwE66o'
-    bot_chatID = '523361387'
+    bot_token = '**************************'
+    bot_chatID = '**************************'
     send_text = 'https://api.telegram.org/bot' + bot_token + \
                 '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
     res = requests.get(send_text)
